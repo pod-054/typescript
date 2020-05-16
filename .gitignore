@@ -77,3 +77,4 @@ fabric.properties
 .idea/modules.xml
 .idea/typescript.iml
 .idea/vcs.xml
+.idea/compiler.xml
