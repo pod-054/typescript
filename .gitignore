@@ -78,3 +78,6 @@ fabric.properties
 .idea/typescript.iml
 .idea/vcs.xml
 .idea/compiler.xml
+
+# TypeScript generate the *.js
+*.js
