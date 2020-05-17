@@ -27,5 +27,11 @@ let deck: Deck = {
 let cardPicker = deck.createCardPicker();
 let pickedCard = cardPicker();
 
-alert("card: " + pickedCard.card + " of " + pickedCard.suit);
-// console.log(typeof(pickedCard));
+function cardNumber(num: number): number {
+    if(num == 0) {
+        num = 13;
+    }
+     return num;
+}
+// document.body.textContent = "card: " + pickedCard.card + " of " + pickedCard.suit ;
+document.body.innerText = "card: " + cardNumber(pickedCard.card) + " of " + pickedCard.suit ;
