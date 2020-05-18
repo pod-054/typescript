@@ -35,3 +35,4 @@ function cardNumber(num: number): number {
 }
 // document.body.textContent = "card: " + pickedCard.card + " of " + pickedCard.suit ;
 document.body.innerText = "card: " + cardNumber(pickedCard.card) + " of " + pickedCard.suit ;
+// document.body.innerText =  typeof cardNumber;
